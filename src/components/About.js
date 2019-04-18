@@ -8,8 +8,20 @@ export default class About extends Component {
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
+               <img className="profile-pic"  src="images/profilepic.jpg" alt="" align="center" />
+               <ul className="social" align="center">
+                  {
+                    
+                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                      return(
+                              <li key={item.name}>
+                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                              </li>
+                            )
+                          }
+                    )
+                  }
+               </ul>
             </div>
 
             <div className="nine columns main-col">
@@ -35,7 +47,9 @@ export default class About extends Component {
                     <br></br>
                     <span><a>{resumeData.website}</a></span>
        					   </p>
+                         
                   </div>
+                  
                </div>
             </div>
          </div>

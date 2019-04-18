@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Alex Gelinas",
     "role": "",
     "thisApp":"https://github.com/bassman2112/gelinas-portfolio",
-    "skypeid": "Your skypeid",
+    "skypeid": "",
     "roleDescription": "",
     "socialLinks":[
         {
@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-microphone"
         }
       ],
-    "aboutme":"I'm some guy.",
+    "aboutme":"My name is Alex Gelinas, and I am a Canadian Developer & Musician! I have a strong passion for building great apps; but also have a deep love for performing, producing, and teaching music. I also love to keep active with hikes, and can often be found getting lost in the wilderness. I have also been a gamer for my whole life, and on top of keeping up with the latest games, I am one of the hosts of the Gaming Fyx podcast. ",
     "address":"British Columbia, Canada",
     "website":"",
     "education":[

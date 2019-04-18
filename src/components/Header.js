@@ -34,19 +34,7 @@ export default class Header extends Component {
                </h3>
                 Uncomment this for some dynamic header data! */}
                <hr/>
-               <ul className="social">
-                  {
-                    
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                      return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                              </li>
-                            )
-                          }
-                    )
-                  }
-               </ul>
+               
             </div>
          </div>
 
