@@ -31,7 +31,7 @@ let resumeData = {
         "specialization":"Electronic Production & Design",
         "MonthOfPassing":"",
         "YearOfPassing":"2014",
-        "Description": "Hello",
+        "Description": "Graduated from Berklee with a degree in Electronic Production & Design, which is a combination of Music Production and Computer Science. My thesis project was creating a VR game in Unity with spatial audio (over two years prior to the commercial release of VR headsets)",
         "Achievements":"GPA: 3.9 - Dean's List"
       },
       {
@@ -45,21 +45,21 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"AudioWorks",
-        "specialization":"Some specialization",
-        "MonthOfJoining": "",
-        "YearOfJoining": "1293",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "specialization":"Senior Full Stack Developer & Project Manager",
+        "MonthOfJoining": "September",
+        "YearOfJoining": "2017",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"Present",
+        "Achievements":"Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I act as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
       },
       {
         "CompanyName":"VenturX",
-        "specialization":"Some specialization",
-        "MonthOfJoining": "",
-        "YearOfJoining": "2000",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "specialization":"Full Stack Developer & Product Specialist",
+        "MonthOfJoining": "May",
+        "YearOfJoining": "2017",
+        "MonthOfLeaving":"November",
+        "YearOfLeaving":"2017",
+        "Achievements":"Developed a large part of VenturX's initial app, and infrastructure. This includes their frontend using Angular, backend using Node, DevOps pipeline, automated build process, as well as many custom pieces of software across their environment. "
       }
     ],
     "skillsDescription":"",
