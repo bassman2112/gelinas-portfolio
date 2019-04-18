@@ -1,6 +1,6 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Alex",
+    "name": "Alex Gelinas",
     "role": "",
     "thisApp":"https://github.com/bassman2112/gelinas-portfolio",
     "skypeid": "Your skypeid",
@@ -23,8 +23,8 @@ let resumeData = {
         }
       ],
     "aboutme":"I'm some guy.",
-    "address":"Canada",
-    "website":"http://alex-gelinas.com",
+    "address":"British Columbia, Canada",
+    "website":"",
     "education":[
       {
         "UniversityName":"Berklee College of Music",
@@ -112,7 +112,9 @@ let resumeData = {
         "name":"project4",
         "description":"mobileapp",
         "imgurl":"images/portfolio/retrocam.jpg"
-      }
+      },
+      
+
     ]
   }
   
