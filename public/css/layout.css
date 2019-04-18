@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -187,14 +187,15 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #161415 url(../images/header-background-old.jpg) no-repeat;
+   background-size: 100%;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { color: #EEE; }
+#about a:hover, #about a:focus { color: #11ABB0; cursor: pointer; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -203,7 +204,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #CCC;
 }
 #about .profile-pic {
    position: relative;
@@ -236,7 +237,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: #EEE;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -325,100 +326,137 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+:root {
+   --awsazurewidth: 88%;
+   --angularreactreduxvuewidth: 100%;
+   --wordpressphplaravelwidth: 80%;
+   --javacwidth: 75%;
+   --mongodbpostgresqlwidth: 86%;
+   --dockerkubernetesansiblefabricwidth: 99%;
+   --pythondjangowidth: 85%;
+   --nodeexpressgraphqlwidth: 100%;
+   --musicperformancemusicproduction: 100%;
 }
 
-.cats {
-   width: 50%;
-   -moz-animation: cats 2s ease;
-   -webkit-animation: cats 2s ease;
+.awsazure {
+  	width: var(--awsazurewidth);
+  	-moz-animation: awsazure 2s ease;
+  	-webkit-animation: awsazure 2s ease;
+}
+.angularreactreduxvue {
+  	width: var(--angularreactreduxvuewidth);
+  	-moz-animation: angularreactreduxvue 2s ease;
+  	-webkit-animation: angularreactreduxvue 2s ease;
+}
+.wordpressphplaravel {
+  	width: var(--wordpressphplaravelwidth);
+  	-moz-animation: wordpressphplaravel 2s ease;
+  	-webkit-animation: wordpressphplaravel 2s ease;
+}
+.javac {
+  	width: var(--javacwidth);
+  	-moz-animation:javac 2s ease;
+  	-webkit-animation:javac 2s ease;
+}
+.musicperformancemusicproduction {
+  	width: var(--musicperformancemusicproduction);
+  	-moz-animation: musicperformancemusicproduction 2s ease;
+  	-webkit-animation: musicperformancemusicproduction 2s ease;
+}
+.mongodbpostgresql {
+  	width: var(--mongodbpostgresqlwidth);
+  	-moz-animation: mongodbpostgresql 2s ease;
+  	-webkit-animation: mongodbpostgresql 2s ease;
+}
+.dockerkubernetesansiblefabric {
+   width: var(--dockerkubernetesansiblefabricwidth);
+   -moz-animation: dockerkubernetesansiblefabric 2s ease;
+   -webkit-animation: dockerkubernetesansiblefabric 2s ease;
+}
+.pythondjango {
+   width: var(--pythondjangowidth);
+   -moz-animation: pythondjango 2s ease;
+   -webkit-animation: pythondjango 2s ease;
+}
+.nodeexpressgraphql {
+   width: var(--nodeexpressgraphqlwidth);
+   -moz-animation: nodeexpressgraphql 2s ease;
+   -webkit-animation: nodeexpressgraphql 2s ease;
 }
 
-@-moz-keyframes photoshop {
+@-moz-keyframes awsazure {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: var(--awsazurewidth);  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes angularreactreduxvue {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: var(--angularreactreduxvuewidth);  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes wordpressphplaravel {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: var(--wordpressphplaravelwidth);  }
 }
-@-moz-keyframes css {
+@-moz-keyframes javac {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: var(--javacwidth);  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes musicperformancemusicproduction {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: var(--musicperformancemusicproduction);  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes mongodbpostgresql {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: var(--mongodbpostgresqlwidth);  }
 }
-@-moz-keyframes cats {
+@-moz-keyframes dockerkubernetesansiblefabric {
    0%   { width: 0px;  }
-   80% { width: 50%;  }
+   100% { width: var(--dockerkubernetesansiblefabricwidth);  }
+ }
+ @-moz-keyframes pythondjango {
+   0%   { width: 0px;  }
+   100% { width: var(--pythondjangowidth);  }
+ }
+ @-moz-keyframes nodeexpressgraphql {
+   0%   { width: 0px;  }
+   100% { width: var(--nodeexpressgraphqlwidth);  }
  }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
-  0%   { width: 0px;  }
-  100% { width: 90%;  }
-}
-@-webkit-keyframes html5 {
-  0%   { width: 0px;  }
-  100% { width: 80%;  }
-}
-@-webkit-keyframes jquery {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
 
-@-webkit-keyframes cats {
+@-webkit-keyframes awsazure {
+  0%   { width: 0px;  }
+  100% { width: var(--awsazurewidth);  }
+}
+@-webkit-keyframes angularreactreduxvue {
+  0%   { width: 0px;  }
+  100% { width: var(--angularreactreduxvuewidth);  }
+}
+@-webkit-keyframes wordpressphplaravel {
+  0%   { width: 0px;  }
+  100% { width: var(--wordpressphplaravelwidth);  }
+}
+@-webkit-keyframes javac {
+  0%   { width: 0px;  }
+  100% { width: var(--javacwidth);  }
+}
+@-webkit-keyframes musicperformancemusicproduction {
+  0%   { width: 0px;  }
+  100% { width: var(--musicperformancemusicproduction);  }
+}
+@-webkit-keyframes mongodbpostgresql {
+  0%   { width: 0px;  }
+  100% { width: var(--mongodbpostgresqlwidth);  }
+}
+@-webkit-keyframes dockerkubernetesansiblefabric {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: var(--dockerkubernetesansiblefabricwidth);  }
+ }
+ @-webkit-keyframes pythondjango {
+   0%   { width: 0px;  }
+   100% { width: var(--pythondjangowidth);  }
+ }
+ @-webkit-keyframes nodeexpressgraphql {
+   0%   { width: 0px;  }
+   100% { width: var(--nodeexpressgraphqlwidth);  }
  }
 
 /* ------------------------------------------------------------------ */
@@ -426,7 +464,8 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: #888;
+   background-size: 200%;
    padding-top: 90px;
    padding-bottom: 60px;
 }
@@ -436,7 +475,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #CCC;
 }
 
 /* Portfolio Content */
@@ -805,10 +844,10 @@ call-to-action .button {
 #contact {
    background: #191919;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 48px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { margin-bottom: 25px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
@@ -839,7 +878,7 @@ call-to-action .button {
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
-   padding-right: 3%;
+   text-align: center;
 }
 #contact .header-col { padding-top: 6px; }
 

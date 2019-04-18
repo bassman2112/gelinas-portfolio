@@ -5,20 +5,12 @@ export default class ThisApp extends Component {
     return (
       <section id="contact">
           <div className="row section-head">
-            <div className="ten columns">
+            <div className="twelve columns">
               <p className="lead">
-              This site was built by Alex Gelinas using React. You can download it here:
+              This site was built by Alex Gelinas using React. 
+              <a target= "_blank" href={resumeData.thisApp}> You can download and use it by clicking here. </a>
               </p>
             </div>
-          </div>
-          <div className="row">
-            <aside className="eigth columns footer-widgets">
-              <div className="widget">
-                <a>
-                  {resumeData.thisApp}
-                </a>
-              </div>
-            </aside>
           </div>
         </section>
         );

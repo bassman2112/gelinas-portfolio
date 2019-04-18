@@ -44,15 +44,19 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"AudioWorks",
         "specialization":"Some specialization",
+        "MonthOfJoining": "",
+        "YearOfJoining": "1293",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"VenturX",
         "specialization":"Some specialization",
+        "MonthOfJoining": "",
+        "YearOfJoining": "2000",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
@@ -61,16 +65,31 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"Angular / React / Redux / Vue"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Node / Express / GraphQL"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Python / Django"
       },
       {
-        "skillname":"cats"
+        "skillname":"MongoDB / PostgreSQL"
+      },
+      {
+        "skillname":"AWS / Azure"
+      },
+      {
+        "skillname":"Docker / Kubernetes / Ansible / Fabric"
+      },
+      {
+        "skillname":"WordPress / PHP / Laravel"
+      },
+      {
+        "skillname":"Java / C++"
+      },
+      {
+        "skillname":"Music Performance / Music Production"
       },
     ],
     "portfolio":[
