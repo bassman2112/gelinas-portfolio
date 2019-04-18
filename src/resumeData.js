@@ -2,7 +2,7 @@ let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Alex",
     "role": "",
-    "thisApp":"http://github.com/bassman2112",
+    "thisApp":"https://github.com/bassman2112/gelinas-portfolio",
     "skypeid": "Your skypeid",
     "roleDescription": "",
     "socialLinks":[
