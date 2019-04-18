@@ -53,6 +53,15 @@ let resumeData = {
         "Achievements":"Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I act as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
       },
       {
+        "CompanyName":"Kitsune Music Academy",
+        "specialization":"Owner & Operator",
+        "MonthOfJoining": "August",
+        "YearOfJoining": "2016",
+        "MonthOfLeaving":"",
+        "YearOfLeaving":"Present",
+        "Achievements":"Have handled every aspect of KMA's development - from funding and market research, to platform development and content creation. Created a customized LMS based on a handmade WordPress theme injected with React code. Video content is edited and created with Premiere, and is captured at 4K. Provides education across all levels - from Elementary all the way to (beyond) College-Level."
+      },
+      {
         "CompanyName":"VenturX",
         "specialization":"Full Stack Developer & Product Specialist",
         "MonthOfJoining": "May",
@@ -60,6 +69,33 @@ let resumeData = {
         "MonthOfLeaving":"November",
         "YearOfLeaving":"2017",
         "Achievements":"Developed a large part of VenturX's initial app, and infrastructure. This includes their frontend using Angular, backend using Node, DevOps pipeline, automated build process, as well as many custom pieces of software across their environment. "
+      },
+      {
+        "CompanyName":"Visual-Eyes Software",
+        "specialization":"Practice Consultant",
+        "MonthOfJoining": "",
+        "YearOfJoining": "2016",
+        "MonthOfLeaving":"February",
+        "YearOfLeaving":"2017",
+        "Achievements":""
+      },
+      {
+        "CompanyName":"DealerSocket",
+        "specialization":"Strategic Services Consultant",
+        "MonthOfJoining": "August",
+        "YearOfJoining": "2015",
+        "MonthOfLeaving":"April",
+        "YearOfLeaving":"2016",
+        "Achievements":""
+      },
+      {
+        "CompanyName":"Themes & Variations",
+        "specialization":"Software Developer",
+        "MonthOfJoining": "September",
+        "YearOfJoining": "2014",
+        "MonthOfLeaving":"October",
+        "YearOfLeaving":"2015",
+        "Achievements":""
       }
     ],
     "skillsDescription":"",

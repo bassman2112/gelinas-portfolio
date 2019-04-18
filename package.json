@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.6.0",
+    "react-coverflow": "^0.2.20",
     "react-dom": "^16.6.0",
     "react-image-lightbox": "^5.1.0",
     "react-particles-js": "^2.6.0",
