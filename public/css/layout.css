@@ -479,6 +479,20 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+
+.dark-popup h3{
+   color: #fff;
+}
+.dark-popup {
+   position: relative;
+   color: #fff;
+   background: #111;
+   padding: 20px;
+   width: auto;
+   max-width: 40%;
+   margin: 20px auto;
+ }
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
