@@ -25,7 +25,7 @@ export default class Header extends Component {
          <div className="row banner">  
            
             <div id="particles-js">
-                    <ParticleContainer />
+              <ParticleContainer />
             </div> 
 
             <div className="banner-text">
