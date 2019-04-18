@@ -28,6 +28,14 @@ body { background: #0f0f0f; }
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
 
+#particles-js {
+   position : absolute;
+   top: 0;
+   left: 0;
+   width:100%;
+   height:150%;
+}
+
 header {
    position: relative;
    height: 800px;
