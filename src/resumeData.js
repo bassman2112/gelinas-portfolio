@@ -1,19 +1,19 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
+    "imagebaseurl":"http://rbhatia46.github.io/",
     "name": "Alex Gelinas",
     "role": "",
-    "thisApp":"https://github.com/bassman2112/gelinas-portfolio",
+    "thisApp":"http://github.com/bassman2112/gelinas-portfolio",
     "skypeid": "",
     "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/alexgelinas/",
+          "url":"http://www.linkedin.com/in/alexgelinas/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"https://github.com/bassman2112",
+          "url":"http://github.com/bassman2112",
           "className":"fa fa-github"
         },
         {
@@ -134,8 +134,8 @@ let resumeData = {
         "shortDescription":"Large-scale project involving many technologies",
         "description":"This is an app. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially un",
         "technologies":"JavaScript, TypeScript, React, Redux, Node, Python, Django, C++, PHP, MongoDB, PostgreSQL, Docker, Kubernetes, Ansible, Fabric, Azure, Git LFS, Jenkins, Premiere",
-        "thumbnailurl":"https://i.imgur.com/F1YqA2R.png",
-        "imgurl":"https://i.imgur.com/VOZFs0D.png",
+        "thumbnailurl":"http://i.imgur.com/F1YqA2R.png",
+        "imgurl":"http://i.imgur.com/VOZFs0D.png",
         "linkText":"",
         "linkURL":""
       },
@@ -145,7 +145,7 @@ let resumeData = {
         "description":"This is an app. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially un",
         "technologies":"Authored WP LMS, Authored WP Theme, React, Node, Docker, Trellis, AWS, Premiere",
         "imgurl":"http://alex-gelinas.com/wp-content/uploads/2017/05/KitsuneMusicSchoolLogoBlack-1024x739.png",
-        "thumbnailurl":"https://i.imgur.com/CfPTYtr.png",
+        "thumbnailurl":"http://i.imgur.com/CfPTYtr.png",
         "linkText": "You can visit KMA here!",
         "linkURL": "http://kitsunemusicacademy.com"
       },
@@ -154,8 +154,8 @@ let resumeData = {
         "shortDescription":"It's a Podcast!",
         "description":"Gaming Fyx is a weekly podcast by six friends from around the world. ",
         "technologies":"Authored WP Theme, Authored RSS Feed, AWS, Cubase, OBS",
-        "thumbnailurl":"https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b2/d1/5d/b2d15d23-5ea3-0cd6-0fee-e365a142630b/source/600x600bb.jpg",
-        "imgurl":"https://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b2/d1/5d/b2d15d23-5ea3-0cd6-0fee-e365a142630b/source/600x600bb.jpg",
+        "thumbnailurl":"http://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b2/d1/5d/b2d15d23-5ea3-0cd6-0fee-e365a142630b/source/600x600bb.jpg",
+        "imgurl":"http://is4-ssl.mzstatic.com/image/thumb/Music114/v4/b2/d1/5d/b2d15d23-5ea3-0cd6-0fee-e365a142630b/source/600x600bb.jpg",
         "linkText":"Listen to Gaming Fyx here!",
         "linkURL":"http://fyx.space"
       },
@@ -164,8 +164,8 @@ let resumeData = {
         "shortDescription":"A tool to help entrepreneurs get their start",
         "description":"mobileapp",
         "technologies":"Angular, Node, MongoDB, AWS",
-        "imgurl":"https://i.imgur.com/OA1dPKf.png",
-        "thumbnailurl":"https://i.imgur.com/OA1dPKf.png",
+        "imgurl":"http://i.imgur.com/OA1dPKf.png",
+        "thumbnailurl":"http://i.imgur.com/OA1dPKf.png",
         "linkText": "Check out MPO Here!",
         "linkURL": "http://musicplayonline.com"
       },
@@ -174,18 +174,18 @@ let resumeData = {
         "shortDescription":"",
         "description":"",
         "technologies":"React",
-        "thumbnailurl":"https://i.imgur.com/wCfScPe.jpg",
-        "imgurl":"https://i.imgur.com/wCfScPe.jpg",
+        "thumbnailurl":"http://i.imgur.com/wCfScPe.jpg",
+        "imgurl":"http://i.imgur.com/wCfScPe.jpg",
         "linkText":"You're already here, but here's the GitHub Repo to use it on your own site!",
-        "linkURL":"https://github.com/bassman2112/gelinas-portfolio"
+        "linkURL":"http://github.com/bassman2112/gelinas-portfolio"
       },*/
       {
         "name":"KitPlayer",
         "shortDescription":"Lightweight Mobile Music Player - Under Active Development",
         "description":"",
         "technologies":"React Native",
-        "thumbnailurl":"https://i.imgur.com/kQdYfo8.png",
-        "imgurl":"https://i.imgur.com/kQdYfo8.png",
+        "thumbnailurl":"http://i.imgur.com/kQdYfo8.png",
+        "imgurl":"http://i.imgur.com/kQdYfo8.png",
         "linkText":"This is in a Private Repo - contact me to check it out!",
         "linkURL":"http://github.com/bassman2112"
       },      
@@ -194,48 +194,48 @@ let resumeData = {
         "shortDescription":"A customizable, free WP Theme",
         "description":"", 
         "technologies":"Authored WP Theme",
-        "thumbnailurl":"https://i.imgur.com/vSIYBRG.png",
+        "thumbnailurl":"http://i.imgur.com/vSIYBRG.png",
         "imgurl":"http://alex-gelinas.com/wp-content/uploads/2017/05/screenshot.png",
         "linkText":"Use KitOne on your WP site today!",
-        "linkURL":"https://github.com/bassman2112/KitOne"
+        "linkURL":"http://github.com/bassman2112/KitOne"
       },
       {
         "name":"Pareidolia",
         "shortDescription":"First Person VR Horror Experience",
         "description":"",
         "technologies":"Unity, Oculus VR",
-        "thumbnailurl": "https://i.imgur.com/M7bmiOS.png",
-        "imgurl":"https://i.imgur.com/LuiuRz6.png",
+        "thumbnailurl": "http://i.imgur.com/M7bmiOS.png",
+        "imgurl":"http://i.imgur.com/LuiuRz6.png",
         "linkText":"Check out a video about Pareidolia here!",
-        "linkURL":"https://youtu.be/uYWGt3yz-3s"
+        "linkURL":"http://youtu.be/uYWGt3yz-3s"
       },*/
       {
         "name":"Music Portfolio",
         "description":"",
         "shortDescription":"A demo piece which shows a lot of my music!",
         "technologies":"",
-        "thumbnailurl": "https://i.imgur.com/iuXCPfz.png",
-        "imgurl":"https://i.imgur.com/iuXCPfz.png",
+        "thumbnailurl": "http://i.imgur.com/iuXCPfz.png",
+        "imgurl":"http://i.imgur.com/iuXCPfz.png",
         "linkText":"Listen to a short demo which spans a large swath of my music!",
-        "linkURL":"https://soundcloud.com/bassman2112/gelinas-audio-examples-music"
+        "linkURL":"http://soundcloud.com/bassman2112/gelinas-audio-examples-music"
       },
       /*{
         "name":"Nier Tribute",
         "shortDescription":"A diverse tribute album to the music of NieR Automata",
         "description":"An ongoing musical endeavour to create a tribute to the soundtrack of NieR Automata. (source for art is kumaponn)",
         "technologies":"",
-        "thumbnailurl":"https://i.imgur.com/IvcYLW2.png",
-        "imgurl":"https://i.imgur.com/IvcYLW2.png",
+        "thumbnailurl":"http://i.imgur.com/IvcYLW2.png",
+        "imgurl":"http://i.imgur.com/IvcYLW2.png",
         "linkText":"Check back often for progress on this project!",
-        "linkURL":"https://www.youtube.com/watch?v=CKOM3lNFajE"
+        "linkURL":"http://www.youtube.com/watch?v=CKOM3lNFajE"
       },*/
       {
         "name":"The Girl Who Fell From the Sky",
         "shortDescription":"",
         "description":"",
         "technologies":"",
-        "thumbnailurl":"https://i.imgur.com/3CmAFTR.jpg",
-        "imgurl":"https://i.imgur.com/3CmAFTR.jpg",
+        "thumbnailurl":"http://i.imgur.com/3CmAFTR.jpg",
+        "imgurl":"http://i.imgur.com/3CmAFTR.jpg",
         "linkText":"",
         "linkURL":""
       },
@@ -244,8 +244,8 @@ let resumeData = {
         "shortDescription":"",
         "description":"",
         "technologies":"",
-        "thumbnailurl":"https://i.imgur.com/P1fDkyy.jpg",
-        "imgurl":"https://i.imgur.com/P1fDkyy.jpg",
+        "thumbnailurl":"http://i.imgur.com/P1fDkyy.jpg",
+        "imgurl":"http://i.imgur.com/P1fDkyy.jpg",
         "linkText":"",
         "linkURL":""
       },
