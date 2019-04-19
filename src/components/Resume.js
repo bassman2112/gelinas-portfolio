@@ -88,7 +88,7 @@ export default  class Resume extends Component {
           media={{
             '@media (max-width: 900px)': {
               width: '100%',
-              height: '300px'
+              height: '100px',
             },
             '@media (min-width: 900px)': {
               width: '100%',

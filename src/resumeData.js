@@ -125,7 +125,7 @@ let resumeData = {
         "skillname":"Java / C++"
       },
       {
-        "skillname":"Music Performance / Music Production"
+        "skillname":"Music Performance / Production"
       },
     ],
     "portfolio":[
