@@ -169,7 +169,7 @@ let resumeData = {
         "linkText": "Check out MPO Here!",
         "linkURL": "http://musicplayonline.com"
       },
-      {
+      /*{
         "name":"Portfolio Site",
         "shortDescription":"",
         "description":"",
@@ -178,7 +178,7 @@ let resumeData = {
         "imgurl":"https://i.imgur.com/wCfScPe.jpg",
         "linkText":"You're already here, but here's the GitHub Repo to use it on your own site!",
         "linkURL":"https://github.com/bassman2112/gelinas-portfolio"
-      },
+      },*/
       {
         "name":"KitPlayer",
         "shortDescription":"Lightweight Mobile Music Player - Under Active Development",
@@ -189,7 +189,7 @@ let resumeData = {
         "linkText":"This is in a Private Repo - contact me to check it out!",
         "linkURL":"http://github.com/bassman2112"
       },      
-      {
+      /*{
         "name":"KitOne",
         "shortDescription":"A customizable, free WP Theme",
         "description":"", 
@@ -208,7 +208,7 @@ let resumeData = {
         "imgurl":"https://i.imgur.com/LuiuRz6.png",
         "linkText":"Check out a video about Pareidolia here!",
         "linkURL":"https://youtu.be/uYWGt3yz-3s"
-      },
+      },*/
       {
         "name":"Music Portfolio",
         "description":"",
@@ -219,7 +219,7 @@ let resumeData = {
         "linkText":"Listen to a short demo which spans a large swath of my music!",
         "linkURL":"https://soundcloud.com/bassman2112/gelinas-audio-examples-music"
       },
-      {
+      /*{
         "name":"Nier Tribute",
         "shortDescription":"A diverse tribute album to the music of NieR Automata",
         "description":"An ongoing musical endeavour to create a tribute to the soundtrack of NieR Automata. (source for art is kumaponn)",
@@ -228,7 +228,7 @@ let resumeData = {
         "imgurl":"https://i.imgur.com/IvcYLW2.png",
         "linkText":"Check back often for progress on this project!",
         "linkURL":"https://www.youtube.com/watch?v=CKOM3lNFajE"
-      },
+      },*/
       {
         "name":"The Girl Who Fell From the Sky",
         "shortDescription":"",

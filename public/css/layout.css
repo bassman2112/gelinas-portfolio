@@ -510,6 +510,13 @@ ul#nav li.current a { color: #11ABB0; }
    margin: 20px auto;
  }
 
+ @media only screen and (max-width: 768px) {
+   .dark-popup {
+      max-width: 70%;
+   }
+
+ }
+
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -521,10 +528,6 @@ ul#nav li.current a { color: #11ABB0; }
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
-}
-
-.mfp-content h3{
-   color:#11ABB0;
 }
 
 .portfolio-item .item-wrap a {

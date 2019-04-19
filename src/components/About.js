@@ -15,7 +15,7 @@ export default class About extends Component {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
                               <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a rel="noopener noreferrer" href={item.url} target="_blank"><i className={item.className}></i></a>
                               </li>
                             )
                           }
@@ -44,8 +44,6 @@ export default class About extends Component {
        						   <span>
                      {resumeData.address}
                     </span>
-                    <br></br>
-                    <span><a>{resumeData.website}</a></span>
        					   </p>
                          
                   </div>

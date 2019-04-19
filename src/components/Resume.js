@@ -84,7 +84,7 @@ export default  class Resume extends Component {
           className="coverflow-resume"
           displayQuantityOfSide={3}
           infiniteScroll
-          enableHeading
+          enableHeading={false}
           media={{
             '@media (max-width: 900px)': {
               width: '100%',
