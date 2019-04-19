@@ -40,7 +40,7 @@ export default class Porfolio extends Component {
             })
           }
           </div>
-          <h1 style={{margin:"10px 0px"}}> My expanded portfolio is available upon request </h1>
+          <h1 style={{margin:"12px 0px 0px 0px"}}> My expanded portfolio is available upon request. </h1>
         </div>
       </div>
   </section>

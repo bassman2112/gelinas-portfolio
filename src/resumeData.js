@@ -234,8 +234,8 @@ let resumeData = {
         "shortDescription":"",
         "description":"",
         "technologies":"",
-        "thumbnailurl":"https://i.imgur.com/uU2tH3j.png",
-        "imgurl":"https://i.imgur.com/uU2tH3j.png",
+        "thumbnailurl":"https://i.imgur.com/3CmAFTR.jpg",
+        "imgurl":"https://i.imgur.com/3CmAFTR.jpg",
         "linkText":"",
         "linkURL":""
       },
@@ -244,8 +244,8 @@ let resumeData = {
         "shortDescription":"",
         "description":"",
         "technologies":"",
-        "thumbnailurl":"https://i.imgur.com/cTUcVJz.png",
-        "imgurl":"https://i.imgur.com/cTUcVJz.png",
+        "thumbnailurl":"https://i.imgur.com/P1fDkyy.jpg",
+        "imgurl":"https://i.imgur.com/P1fDkyy.jpg",
         "linkText":"",
         "linkURL":""
       },
