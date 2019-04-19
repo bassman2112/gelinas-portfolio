@@ -500,12 +500,9 @@ ul#nav li.current a { color: #11ABB0; }
 
 /* Portfolio Content */
 
-.dark-popup h3{
-   color: #fff;
-}
 .dark-popup {
    position: relative;
-   color: #fff;
+   color: #EEE;
    background: #111;
    padding: 20px;
    width: auto;
@@ -525,6 +522,11 @@ ul#nav li.current a { color: #11ABB0; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
+
+.mfp-content h3{
+   color:#11ABB0;
+}
+
 .portfolio-item .item-wrap a {
    display: block;
    cursor: pointer;

@@ -96,18 +96,19 @@ export default  class Resume extends Component {
             }
           }}
         >
-            <img src="https://i.imgur.com/OmS5wvn.png" alt="Music Play" data-action="https://www.musicplaycanada.com/" />
             <img src="https://i.imgur.com/myYchXI.png" alt="OC Remix" data-action="https://ocremix.org/" />
             <img src="https://i.imgur.com/UtwBJjK.jpg" alt="Rooster Teeth" data-action="https://roosterteeth.com/"/>
-            <img src="https://i.imgur.com/OrOvkEK.jpg" alt='DealerSocket' data-action="https://dealersocket.com/" />
-            <img src="https://i.imgur.com/g3E7OQi.png" alt="AudioWorks" data-action="https://www.linkedin.com/company/audioworks-technologies/about/" />
-            <img src="https://i.imgur.com/0EYcj6T.gif" alt="Berklee" data-action="https://www.berklee.edu/" />
-            <img src='https://i.imgur.com/LPc4Xkj.jpg' alt='Microsoft' data-action="https://www.microsoft.ca"/>
-            <img src='https://i.imgur.com/jp6r3E7.png' alt='MetalWorks' data-action="https://www.metalworksinstitute.com/"/>
-            <img src="https://i.imgur.com/YC6qP6o.png" alt="Twitch" data-action="https://twitch.tv" />
-            <img src='https://i.imgur.com/NISajFb.png' alt='VenturX' data-action="https://www.venturx.ca/"/>
-            <img src='https://i.imgur.com/lh8JAIk.png' alt='KMA ' data-action="http://www.kitsunemusicacademy.com"/>
             <img src="https://i.imgur.com/PJbA2Fb.jpg" alt="Visual-Eyes" data-action="https://www.visual-eyes.ca" />
+            <img src="https://i.imgur.com/0LTykBi.png" alt="MusicPlay" data-action="https://www.musicplaycanada.com/" />
+            <img src="https://i.imgur.com/YC6qP6o.png" alt="Twitch" data-action="https://twitch.tv" />
+            <img src='https://i.imgur.com/lh8JAIk.png' alt='KMA ' data-action="http://www.kitsunemusicacademy.com"/>
+            <img src="https://i.imgur.com/F1YqA2R.png" alt="AudioWorks" data-action="https://www.linkedin.com/company/audioworks-technologies/about/" />
+            <img src='https://i.imgur.com/LPc4Xkj.jpg' alt='Microsoft' data-action="https://www.microsoft.ca"/>
+            <img src="https://i.imgur.com/0EYcj6T.gif" alt="Berklee" data-action="https://www.berklee.edu/" />
+            <img src='https://i.imgur.com/jp6r3E7.png' alt='MetalWorks' data-action="https://www.metalworksinstitute.com/"/>
+            <img src='https://i.imgur.com/OA1dPKf.png' alt='VenturX' data-action="https://www.venturx.ca/"/>
+            <img src="https://i.imgur.com/OrOvkEK.jpg" alt='DealerSocket' data-action="https://dealersocket.com/" />
+            <img src="https://i.imgur.com/1EqjaWb.jpg" alt='Plugin Boutique' data-action="https://www.pluginboutique.com/" />
             <img src='https://i.imgur.com/NvFAHzS.jpg' alt='FlexiShip' data-action="https://www.flexiship.ca/"/>
 
    
