@@ -137,7 +137,7 @@ export default class Resume extends Component {
             <img
               src="images/companies/kma.png"
               alt="KMA "
-              data-action="http://www.kitsunemusicacademy.com"
+              data-action="https://www.kitsunemusicacademy.com"
             />
             <img
               src="images/companies/aw.png"
