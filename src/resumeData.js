@@ -32,14 +32,14 @@ let resumeData = {
         "MonthOfPassing":"",
         "YearOfPassing":"2014",
         "Description": "Graduated from Berklee with a degree in Electronic Production & Design, which is a combination of Music Production and Computer Science. My thesis project was creating a VR game in Unity with spatial audio (over two years prior to the commercial release of VR headsets)",
-        "Achievements":"GPA: 3.9 - Dean's List"
+        "Achievements":"GPA: 3.9 - Dean's List - Summa Cum Laude"
       },
       {
         "UniversityName":"Grant MacEwan University",
         "specialization":"Music Performance",
         "MonthOfPassing":"",
         "YearOfPassing":"2010",
-        "Achievements":"GPA 3.8 - Dean's List"
+        "Achievements":"GPA 3.8 - Dean's List - Summa Cum Laude"
       }
     ],
     "work":[
