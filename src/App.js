@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Resume from './components/Resume';
-import Portfolio from './components/Portfolio'; 
-import ThisApp from './components/ThisApp';
-import Footer from './components/Footer';
-import resumeData from './resumeData';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+import Home from './routes/home'
+
 
 // Use Testimonials if you want! I don't use it. 
 //import Testimonials from  './components/Testimonials';
@@ -13,14 +10,16 @@ import resumeData from './resumeData';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Resume resumeData={resumeData}/>
-        <Portfolio resumeData={resumeData}/>
-        <ThisApp resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
-      </div>
+      <BrowserRouter>
+        <Switch>
+          {/* --------------------------------------------------
+          | This is an ultra simple router which allows us to  |
+          | render the 'Home' component no matter which route  |
+          | comes in! Adding more routes from here is very ez. |
+          ----------------------------------------------------*/}
+          <Route component={Home} />
+        </Switch>
+      </BrowserRouter>
     );
   }
 }

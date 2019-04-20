@@ -25,16 +25,20 @@ export default class Porfolio extends Component {
                     </a>
                   </div>
                   <div id={`modal_${i}`} className="dark-popup mfp-hide">
-                        <img alt={item.name} src={`${item.imgurl}`}></img>
-                          <h2 style={{margin:"8px 0px"}}>{item.name}</h2>
-                          <p>{item.description}</p>
-                          { item.technologies !== "" &&
-                          <h5>Technologies Used:</h5>
-                          }
-                          <p><i>{item.technologies}</i></p>
-                          
-                          <p><a rel="noopener noreferrer" href={item.linkURL} target="_blank"> {item.linkText}</a></p>
-                        </div>
+                    <a rel="noopener noreferrer" href={item.linkURL} target="_blank"> 
+                    <img alt={item.name} src={`${item.imgurl}`}></img>
+                    </a>
+                    <h2 style={{margin:"8px 0px"}}>{item.name}</h2>
+                    <p>{item.description}</p>
+
+                    { item.technologies !== "" &&
+                    <h5>Technologies Used:</h5>
+                    }
+                    
+                    <p><i>{item.technologies}</i></p>
+                    
+                    <p><a rel="noopener noreferrer" href={item.linkURL} target="_blank"> {item.linkText}</a></p>
+                  </div>
                 </div>
               )
             })

@@ -355,7 +355,7 @@ ul#nav li.current a { color: #11ABB0; }
    --dockerkubernetesansiblefabricwidth: 99%;
    --pythondjangowidth: 85%;
    --nodeexpressgraphqlwidth: 100%;
-   --musicperformancemusicproduction: 100%;
+   --musicperformanceproduction: 100%;
 }
 
 .awsazure {
@@ -378,10 +378,10 @@ ul#nav li.current a { color: #11ABB0; }
   	-moz-animation:javac 2s ease;
   	-webkit-animation:javac 2s ease;
 }
-.musicperformancemusicproduction {
-  	width: var(--musicperformancemusicproduction);
-  	-moz-animation: musicperformancemusicproduction 2s ease;
-  	-webkit-animation: musicperformancemusicproduction 2s ease;
+.musicperformanceproduction {
+  	width: var(--musicperformanceproduction);
+  	-moz-animation: musicperformanceproduction 2s ease;
+  	-webkit-animation: musicperformanceproduction 2s ease;
 }
 .mongodbpostgresql {
   	width: var(--mongodbpostgresqlwidth);
@@ -420,9 +420,9 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: var(--javacwidth);  }
 }
-@-moz-keyframes musicperformancemusicproduction {
+@-moz-keyframes musicperformanceproduction {
   0%   { width: 0px;  }
-  100% { width: var(--musicperformancemusicproduction);  }
+  100% { width: var(--musicperformanceproduction);  }
 }
 @-moz-keyframes mongodbpostgresql {
   0%   { width: 0px;  }
@@ -458,9 +458,9 @@ ul#nav li.current a { color: #11ABB0; }
   0%   { width: 0px;  }
   100% { width: var(--javacwidth);  }
 }
-@-webkit-keyframes musicperformancemusicproduction {
+@-webkit-keyframes musicperformanceproduction {
   0%   { width: 0px;  }
-  100% { width: var(--musicperformancemusicproduction);  }
+  100% { width: var(--musicperformanceproduction);  }
 }
 @-webkit-keyframes mongodbpostgresql {
   0%   { width: 0px;  }

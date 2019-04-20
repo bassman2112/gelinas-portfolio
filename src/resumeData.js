@@ -132,17 +132,17 @@ let resumeData = {
       {
         "name":"AudioWorks",
         "shortDescription":"Large-scale project involving many technologies",
-        "description":"This is an app. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially un",
+        "description":"",
         "technologies":"JavaScript, TypeScript, React, Redux, Node, Python, Django, C++, PHP, MongoDB, PostgreSQL, Docker, Kubernetes, Ansible, Fabric, Azure, Git LFS, Jenkins, Premiere",
         "thumbnailurl":"images/portfolio/aw.png",
         "imgurl":"images/portfolio/modals/m-aw.png",
-        "linkText":"",
-        "linkURL":""
+        "linkText":"Learn more about AudioWorks here",
+        "linkURL":"https://www.linkedin.com/company/audioworks-technologies/"
       },
       {
         "name":"Kitsune Music Academy",
         "shortDescription": "Modern Music Education",
-        "description":"This is an app. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially un",
+        "description":"",
         "technologies":"Authored WP LMS, Authored WP Theme, React, Node, Docker, Trellis, AWS, Premiere",
         "imgurl":"images/portfolio/modals/m-kma.png",
         "thumbnailurl":"images/portfolio/kma.png",
@@ -152,7 +152,7 @@ let resumeData = {
       {
         "name":"Gaming Fyx",
         "shortDescription":"It's a Podcast!",
-        "description":"Gaming Fyx is a weekly podcast by six friends from around the world. ",
+        "description":"Gaming Fyx is a weekly podcast by six friends from around the world. We talk about video games, as well as a lot of our personal interests - ranging from anime and comic books, to hiking and crossfit. I handle all production aspects of the show - streaming, recording, editing, website, RSS, et cetera. The podcast can be found on all podcast providers!",
         "technologies":"Authored WP Theme, Authored RSS Feed, AWS, Cubase, OBS",
         "thumbnailurl":"images/portfolio/fyx.jpg",
         "imgurl":"images/portfolio/fyx.jpg",
@@ -162,12 +162,12 @@ let resumeData = {
       {
         "name":"VenturX",
         "shortDescription":"A tool to help entrepreneurs get their start",
-        "description":"mobileapp",
+        "description":"",
         "technologies":"Angular, Node, MongoDB, AWS",
         "imgurl":"images/portfolio/vx.png",
         "thumbnailurl":"images/portfolio/vx.png",
-        "linkText": "Check out MPO Here!",
-        "linkURL": "http://musicplayonline.com"
+        "linkText": "Check VenturX out here!",
+        "linkURL": "http://venturx.ca"
       },
       /*{
         "name":"Portfolio Site",
@@ -211,12 +211,12 @@ let resumeData = {
       },*/
       {
         "name":"Music Portfolio",
-        "description":"",
         "shortDescription":"A demo piece which shows a lot of my music!",
+        "description":"",
         "technologies":"",
         "thumbnailurl": "images/portfolio/ag.png",
         "imgurl":"images/portfolio/ag.png",
-        "linkText":"Listen to a short demo which spans a large swath of my music!",
+        "linkText":"Listen to a short demo which shows a large swath of my music!",
         "linkURL":"http://soundcloud.com/bassman2112/gelinas-audio-examples-music"
       },
       /*{
@@ -236,8 +236,8 @@ let resumeData = {
         "technologies":"",
         "thumbnailurl":"images/portfolio/gwf.jpg",
         "imgurl":"images/portfolio/gwf.jpg",
-        "linkText":"",
-        "linkURL":""
+        "linkText":"Listen to The Girl Who Fell From The Sky here!",
+        "linkURL":"https://soundcloud.com/bassman2112/the-girl-who-fell-from-the-sky"
       },
       {
         "name":"Setting Sail, Coming Home",
@@ -246,8 +246,8 @@ let resumeData = {
         "technologies":"",
         "thumbnailurl":"images/portfolio/ssch.jpg",
         "imgurl":"images/portfolio/ssch.jpg",
-        "linkText":"",
-        "linkURL":""
+        "linkText":"Listen to Setting Sail, Coming Home here!",
+        "linkURL":"https://soundcloud.com/bassman2112/setting-sail-coming-home"
       },
  
       
