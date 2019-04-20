@@ -131,9 +131,9 @@ let resumeData = {
     "portfolio":[
       {
         "name":"AudioWorks",
-        "shortDescription":"Large-scale project involving many technologies",
-        "description":"",
-        "technologies":"JavaScript, TypeScript, React, Redux, Node, Python, Django, C++, PHP, MongoDB, PostgreSQL, Docker, Kubernetes, Ansible, Fabric, Azure, Git LFS, Jenkins, Premiere",
+        "shortDescription":"Large-scale project involving many technologies.",
+        "description":"I am the lead developer and project manager for the Web side of AudioWorks Technologies' ambitious projects. These aim to bring collaboration, education, and community to musicians all over the world. This includes having created a fully featured in-house DAW; a vast backend which uses microservices provided by Docker and Kubernetes; proprietary online version control; the use of VR to provide students the opportunity to sit in on University classes; and much, much more - a lot of which is under NDA at this time. Please contact me for more info!",
+        "technologies":"JavaScript, TypeScript, React, Redux, Node, Python, Django, C++, PHP, MongoDB, PostgreSQL, Docker, Kubernetes, Ansible, Fabric, Azure, Git LFS, Jenkins, Premiere, VR",
         "thumbnailurl":"images/portfolio/aw.png",
         "imgurl":"images/portfolio/modals/m-aw.png",
         "linkText":"Learn more about AudioWorks here",
@@ -142,7 +142,7 @@ let resumeData = {
       {
         "name":"Kitsune Music Academy",
         "shortDescription": "Modern Music Education",
-        "description":"",
+        "description":"The product of a successful Kickstarter, KMA is an ongoing project to help bring high quality music education to students everywhere for a very low price. The skill level of this education ranges from extreme beginner, to beyond college-level. I created all technologies that KMA uses, including a fully-featured Learning Management System, custom authored WordPress theme, and many more behind-the-scenes React goodies to help with lesson interactivity.",
         "technologies":"Authored WP LMS, Authored WP Theme, React, Node, Docker, Trellis, AWS, Premiere",
         "imgurl":"images/portfolio/modals/m-kma.png",
         "thumbnailurl":"images/portfolio/kma.png",
@@ -161,8 +161,8 @@ let resumeData = {
       },
       {
         "name":"VenturX",
-        "shortDescription":"A tool to help entrepreneurs get their start",
-        "description":"",
+        "shortDescription":"A powerful tool to help entrepreneurs get their start.",
+        "description":"My time with VenturX was spent building the infrastructure and development environment for the project. I built the majority of the front and backend, as well as their DevOps pipeline. I had the opportunity to mentor several developers during my time there, regularly keep in contact with the team, and occasionally still help them overcome technological hurdles.",
         "technologies":"Angular, Node, MongoDB, AWS",
         "imgurl":"images/portfolio/vx.png",
         "thumbnailurl":"images/portfolio/vx.png",
@@ -182,8 +182,8 @@ let resumeData = {
       {
         "name":"KitPlayer",
         "shortDescription":"Lightweight Mobile Music Player - Under Active Development",
-        "description":"",
-        "technologies":"React Native",
+        "description":"KitPlayer is an ongoing project which makes use of React Native to create a cross-platform mobile app. Down the road, the goal will be that you can set KitPlayer to use your subscription service of choice in a very lightweight way. More features are planned for the future, including (but not limited to) music suggestions via synesthesia.",
+        "technologies":"React Native, MongoDB, GraphQL",
         "thumbnailurl":"images/portfolio/kp.png",
         "imgurl":"images/portfolio/kp.png",
         "linkText":"This is in a Private Repo - contact me to check it out!",
@@ -211,8 +211,8 @@ let resumeData = {
       },*/
       {
         "name":"Music Portfolio",
-        "shortDescription":"A demo piece which shows a lot of my music!",
-        "description":"",
+        "shortDescription":"A demo piece which shows off a lot of my music in a short playtime.",
+        "description":"This is a short, three minute track which showcases some of the music work I have done over the years! It covers a broad range of styles in that short play time, and I am excited to add to this with my upcoming Nier Tribute project!",
         "technologies":"",
         "thumbnailurl": "images/portfolio/ag.png",
         "imgurl":"images/portfolio/ag.png",
@@ -231,8 +231,8 @@ let resumeData = {
       },*/
       {
         "name":"The Girl Who Fell From the Sky",
-        "shortDescription":"",
-        "description":"",
+        "shortDescription":"My take on a classic piece from a beautiful OST",
+        "description":"This labour of love came from my adoration for the classic Ghibli film, 'Laputa: Castle in the Sky.' It is fully MIDI apart from the vocalists.",
         "technologies":"",
         "thumbnailurl":"images/portfolio/gwf.jpg",
         "imgurl":"images/portfolio/gwf.jpg",
@@ -241,8 +241,8 @@ let resumeData = {
       },
       {
         "name":"Setting Sail, Coming Home",
-        "shortDescription":"",
-        "description":"",
+        "shortDescription":"Featured by OCRemix, my vocal jazz take on a great track from the game Bastion",
+        "description":"Bastion is a game with a wonderful Soundtrack, and I felt that one of its most iconic tracks - Setting Sail, Coming Home - would be really exciting as a vocal jazz piece. This song is the product of that idea, and it has since been featured on OCRemix, and original composer Darren Korb has expressed his affection for this version as well.",
         "technologies":"",
         "thumbnailurl":"images/portfolio/ssch.jpg",
         "imgurl":"images/portfolio/ssch.jpg",

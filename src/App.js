@@ -18,7 +18,6 @@ class App extends Component {
           | comes in! Adding more routes from here is very ez. |
           ----------------------------------------------------*/}
           <Route exact path="/" component={Home} />
-          <Route path="/portfolio" component={Home}/>
           <Route component={Home} />
         </Switch>
       </BrowserRouter>
