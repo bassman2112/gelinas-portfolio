@@ -17,7 +17,8 @@ class App extends Component {
           | render the 'Home' component no matter which route  |
           | comes in! Adding more routes from here is very ez. |
           ----------------------------------------------------*/}
-          <Route component={Home} />
+          <Route exact path="/" component={Home} />
+          <Route path="*" component={Home} />
         </Switch>
       </BrowserRouter>
     );
