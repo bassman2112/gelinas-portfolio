@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // Routes
-import Home from './routes/home'
+import Home from "./routes/home";
 
 class App extends Component {
   render() {
