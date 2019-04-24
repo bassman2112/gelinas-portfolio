@@ -185,13 +185,13 @@ export default class Resume extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Technologies</span>
+              <span>Skills</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <p>
-              These bars denote a subjective <b><i>comfort level</i></b> with each technology. I am always looking to learn more about each, and am passionate about continually improving my skills!
+              These bars denote a subjective <b><i>comfort level</i></b> with each skill. I am always looking to learn more, and am passionate about continually improving my skills!
             </p>
             <p>{resumeData.skillsDescription}</p>
 
