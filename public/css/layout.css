@@ -26,6 +26,22 @@ body {
   background: #0f0f0f;
 }
 
+/* Variables */
+:root {
+  /* These are used for the skill bars */
+  --awsazurewidth: 88%;
+  --angularreactreduxvuewidth: 100%;
+  --wordpressphplaravelwidth: 80%;
+  --javacwidth: 75%;
+  --mongodbpostgresqlwidth: 86%;
+  --dockerkubernetesansiblefabricwidth: 99%;
+  --pythondjangowidth: 85%;
+  --nodeexpressgraphqlwidth: 100%;
+  --musicperformanceproduction: 100%;
+  /* This is your site theme colour */
+  --site-theme: #11abb0;
+}
+
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -118,7 +134,7 @@ header .banner-text hr {
   color: #fff;
 }
 #about .social li a:hover {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 
 /* scrolldown link */
@@ -142,7 +158,7 @@ header .scrolldown a {
   transition: all 0.3s ease-in-out;
 }
 header .scrolldown a:hover {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 
 /* primary navigation
@@ -213,7 +229,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 
 /* ------------------------------------------------------------------ */
@@ -234,7 +250,7 @@ ul#nav li.current a {
 }
 #about a:hover,
 #about a:focus {
-  color: #11abb0;
+  color: var(--site-theme);
   cursor: pointer;
 }
 
@@ -293,11 +309,11 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 #resume a:hover,
 #resume a:focus {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 
 #resume h1 {
@@ -306,7 +322,7 @@ ul#nav li.current a {
   letter-spacing: 1px;
 }
 #resume h1 span {
-  border-bottom: 3px solid #11abb0;
+  border-bottom: 3px solid var(--site-theme);
   padding-bottom: 6px;
 }
 #resume h3 {
@@ -329,7 +345,7 @@ ul#nav li.current a {
 }
 #resume .info {
   font: 16px/24px "librebaskerville-italic", serif;
-  color: #11abb0;
+  color: var(--site-theme);
   margin-bottom: 18px;
   margin-top: 9px;
 }
@@ -379,23 +395,11 @@ ul#nav li.current a {
 
   margin: 0;
   padding-right: 24px;
-  background: #11abb0;
+  background: var(--site-theme);
   display: inline-block;
   height: 20px;
   line-height: 20px;
   border-radius: 3px 0 0 3px;
-}
-
-:root {
-  --awsazurewidth: 88%;
-  --angularreactreduxvuewidth: 100%;
-  --wordpressphplaravelwidth: 80%;
-  --javacwidth: 75%;
-  --mongodbpostgresqlwidth: 86%;
-  --dockerkubernetesansiblefabricwidth: 99%;
-  --pythondjangowidth: 85%;
-  --nodeexpressgraphqlwidth: 100%;
-  --musicperformanceproduction: 100%;
 }
 
 .awsazure {
@@ -1047,7 +1051,7 @@ call-to-action .button {
 
 #contact a,
 #contact a:visited {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 #contact a:hover,
 #contact a:focus {
@@ -1117,7 +1121,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
   color: #fff;
-  background-color: #11abb0;
+  background-color: var(--site-theme);
 }
 #contact button.submit {
   text-transform: uppercase;
@@ -1136,7 +1140,7 @@ call-to-action .button {
   background: #fff;
 }
 #contact span.required {
-  color: #11abb0;
+  color: var(--site-theme);
   font-size: 13px;
 }
 #message-warning,
@@ -1152,7 +1156,7 @@ call-to-action .button {
   color: #d72828;
 }
 #message-success {
-  color: #11abb0;
+  color: var(--site-theme);
 }
 
 #message-warning i,
