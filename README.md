@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/acccdba1-75e7-4b0b-8794-5f079906a75c/deploy-status)](https://app.netlify.com/sites/adoring-tereshkova-750573/deploys)
+
 # React-Based Personal Site for Developers
 
 ## How to get started

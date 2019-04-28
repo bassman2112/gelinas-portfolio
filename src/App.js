@@ -11,11 +11,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-
           <Suspense
             fallback={
               <div>
-                <img className="loadingimage" src="images/loader.gif" />
+                <p className="loadingtext">Loading...</p>
               </div>
             }
           >
@@ -25,13 +24,12 @@ class App extends Component {
           <Suspense
             fallback={
               <div>
-                <img className="loadingimage" src="images/loader.gif" />
+                <p className="loadingtext">Loading...</p>
               </div>
             }
           >
             <Route component={Home} />
           </Suspense>
-
         </Switch>
       </BrowserRouter>
     );

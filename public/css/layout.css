@@ -43,15 +43,14 @@ body {
   --contrast-colour: #FFF;
 }
 
-
-.loadingimage {
-  display: block;
-  margin: 0;
+.loadingtext {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  color:var(--site-theme);
 }
 
 /* ------------------------------------------------------------------ */
