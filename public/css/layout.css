@@ -32,11 +32,11 @@ body {
   --awsazurewidth: 88%;
   --angularreactreduxvuewidth: 100%;
   --wordpressphplaravelwidth: 80%;
-  --javacwidth: 75%;
-  --mongodbpostgresqlwidth: 86%;
+  --javaccwidth: 75%;
+  --mongodbpostgresqlgraphqlwidth: 86%;
   --dockerkubernetesansiblefabricwidth: 99%;
   --pythondjangowidth: 85%;
-  --nodeexpressgraphqlwidth: 100%;
+  --jstsnodewidth: 100%;
   --musicperformanceproduction: 100%;
   /* This is your site theme colour */
   --site-theme: #11abb0;
@@ -428,20 +428,20 @@ ul#nav li.current a {
   -moz-animation: wordpressphplaravel 2s ease;
   -webkit-animation: wordpressphplaravel 2s ease;
 }
-.javac {
-  width: var(--javacwidth);
-  -moz-animation: javac 2s ease;
-  -webkit-animation: javac 2s ease;
+.javacc {
+  width: var(--javaccwidth);
+  -moz-animation: javacc 2s ease;
+  -webkit-animation: javacc 2s ease;
 }
 .musicperformanceproduction {
   width: var(--musicperformanceproduction);
   -moz-animation: musicperformanceproduction 2s ease;
   -webkit-animation: musicperformanceproduction 2s ease;
 }
-.mongodbpostgresql {
-  width: var(--mongodbpostgresqlwidth);
-  -moz-animation: mongodbpostgresql 2s ease;
-  -webkit-animation: mongodbpostgresql 2s ease;
+.mongodbpostgresqlgraphql {
+  width: var(--mongodbpostgresqlgraphqlwidth);
+  -moz-animation: mongodbpostgresqlgraphql 2s ease;
+  -webkit-animation: mongodbpostgresqlgraphql 2s ease;
 }
 .dockerkubernetesansiblefabric {
   width: var(--dockerkubernetesansiblefabricwidth);
@@ -453,10 +453,10 @@ ul#nav li.current a {
   -moz-animation: pythondjango 2s ease;
   -webkit-animation: pythondjango 2s ease;
 }
-.nodeexpressgraphql {
-  width: var(--nodeexpressgraphqlwidth);
-  -moz-animation: nodeexpressgraphql 2s ease;
-  -webkit-animation: nodeexpressgraphql 2s ease;
+.jstsnode {
+  width: var(--jstsnodewidth);
+  -moz-animation: jstsnode 2s ease;
+  -webkit-animation: jstsnode 2s ease;
 }
 
 @-moz-keyframes awsazure {
@@ -483,12 +483,12 @@ ul#nav li.current a {
     width: var(--wordpressphplaravelwidth);
   }
 }
-@-moz-keyframes javac {
+@-moz-keyframes javacc {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--javacwidth);
+    width: var(--javaccwidth);
   }
 }
 @-moz-keyframes musicperformanceproduction {
@@ -499,12 +499,12 @@ ul#nav li.current a {
     width: var(--musicperformanceproduction);
   }
 }
-@-moz-keyframes mongodbpostgresql {
+@-moz-keyframes mongodbpostgresqlgraphql {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--mongodbpostgresqlwidth);
+    width: var(--mongodbpostgresqlgraphqlwidth);
   }
 }
 @-moz-keyframes dockerkubernetesansiblefabric {
@@ -523,12 +523,12 @@ ul#nav li.current a {
     width: var(--pythondjangowidth);
   }
 }
-@-moz-keyframes nodeexpressgraphql {
+@-moz-keyframes jstsnode {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--nodeexpressgraphqlwidth);
+    width: var(--jstsnodewidth);
   }
 }
 
@@ -556,12 +556,12 @@ ul#nav li.current a {
     width: var(--wordpressphplaravelwidth);
   }
 }
-@-webkit-keyframes javac {
+@-webkit-keyframes javacc {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--javacwidth);
+    width: var(--javaccwidth);
   }
 }
 @-webkit-keyframes musicperformanceproduction {
@@ -572,12 +572,12 @@ ul#nav li.current a {
     width: var(--musicperformanceproduction);
   }
 }
-@-webkit-keyframes mongodbpostgresql {
+@-webkit-keyframes mongodbpostgresqlgraphql {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--mongodbpostgresqlwidth);
+    width: var(--mongodbpostgresqlgraphqlwidth);
   }
 }
 @-webkit-keyframes dockerkubernetesansiblefabric {
@@ -596,12 +596,12 @@ ul#nav li.current a {
     width: var(--pythondjangowidth);
   }
 }
-@-webkit-keyframes nodeexpressgraphql {
+@-webkit-keyframes jstsnode {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--nodeexpressgraphqlwidth);
+    width: var(--jstsnodewidth);
   }
 }
 

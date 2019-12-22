@@ -63,7 +63,7 @@ let resumeData = {
       MonthOfLeaving: "2019",
       YearOfLeaving: "May",
       Achievements:
-        "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I act as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
+        "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I acted as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
     },
     {
       CompanyName: "Kitsune Music Academy",
@@ -119,13 +119,16 @@ let resumeData = {
       skillname: "Angular / React / Redux / Vue"
     },
     {
-      skillname: "Node / Express / GraphQL"
+      skillname: "JS / TS / Node"
     },
     {
       skillname: "Python / Django"
     },
     {
-      skillname: "MongoDB / PostgreSQL"
+      skillname: "Java / C# / C++"
+    },
+    {
+      skillname: "MongoDB / PostgreSQL / GraphQL"
     },
     {
       skillname: "AWS / Azure"
@@ -137,9 +140,6 @@ let resumeData = {
       skillname: "WordPress / PHP / Laravel"
     },
     {
-      skillname: "Java / C++"
-    },
-    {
       skillname: "Music Performance / Production"
     }
   ],
@@ -148,7 +148,7 @@ let resumeData = {
       name: "AudioWorks",
       shortDescription: "Large-scale project involving many technologies.",
       description:
-        "I am the lead developer and project manager for the Web side of AudioWorks Technologies' ambitious projects. These aim to bring collaboration, education, and community to musicians all over the world. This includes having created a fully featured in-house DAW; a vast backend which uses microservices provided by Docker and Kubernetes; proprietary online version control; the use of VR to provide students the opportunity to sit in on University classes; and much, much more - a lot of which is under NDA at this time. Please contact me for more info!",
+        "I was the lead developer and project manager for the Web side of AudioWorks Technologies' ambitious projects. These aim to bring collaboration, education, and community to musicians all over the world. This includes having created a fully featured in-house DAW; a vast backend which uses microservices provided by Docker and Kubernetes; proprietary online version control; the use of VR to provide students the opportunity to sit in on University classes; and much, much more - a lot of which is under NDA at this time. Please contact me for more info!",
       technologies:
         "JavaScript, TypeScript, React, Redux, Node, Python, Django, C++, PHP, MongoDB, PostgreSQL, Docker, Kubernetes, Ansible, Fabric, Azure, Git LFS, Jenkins, Premiere, VR",
       thumbnailurl: "images/portfolio/aw.png",

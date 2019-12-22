@@ -145,9 +145,19 @@ export default class Resume extends Component {
               data-action="https://www.linkedin.com/company/audioworks-technologies/about/"
             />
             <img
+              src="images/companies/ig.jpg"
+              alt="Ingrooves Music Group"
+              data-action="https://www.ingrooves.com/"
+            />
+            <img
               src="images/companies/ms.jpg"
               alt="Microsoft"
               data-action="https://www.microsoft.ca"
+            />
+            <img
+              src="images/companies/umg.jpg"
+              alt="Universal Media Group"
+              data-action="https://www.universalmusic.com/"
             />
             <img
               src="images/companies/berk.gif"
