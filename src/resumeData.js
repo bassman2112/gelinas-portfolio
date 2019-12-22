@@ -46,12 +46,22 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Ingrooves / Universal Music Group",
+      specialization: "Senior Software Developer",
+      MonthOfJoining: "June",
+      YearOfJoining: "2019",
+      MonthOfLeaving: "",
+      YearOfLeaving: "Present",
+      Achievements:
+        "Working with many languages across several projects involving big data, quick turnaround times, and frequent client interactions/feedback. Languages and technologies used include JavaScript, TypeScript, C#, Go, Kubernetes, Helm, Rancher, Gitlab, and DinD for the purpose of CI/CD. Have successfully been with projects which have gone from initial development to production deployment with many clients."
+    },
+    {
       CompanyName: "AudioWorks",
       specialization: "Senior Full Stack Developer & Project Manager",
       MonthOfJoining: "September",
       YearOfJoining: "2017",
-      MonthOfLeaving: "",
-      YearOfLeaving: "Present",
+      MonthOfLeaving: "2019",
+      YearOfLeaving: "May",
       Achievements:
         "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I act as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
     },
