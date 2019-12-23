@@ -60,8 +60,8 @@ let resumeData = {
       specialization: "Senior Full Stack Developer & Project Manager",
       MonthOfJoining: "September",
       YearOfJoining: "2017",
-      MonthOfLeaving: "2019",
-      YearOfLeaving: "May",
+      MonthOfLeaving: "May",
+      YearOfLeaving: "2019",
       Achievements:
         "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I acted as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
     },
@@ -88,7 +88,7 @@ let resumeData = {
     {
       CompanyName: "Visual-Eyes Software",
       specialization: "Practice Consultant",
-      MonthOfJoining: "",
+      MonthOfJoining: "May",
       YearOfJoining: "2016",
       MonthOfLeaving: "February",
       YearOfLeaving: "2017",
