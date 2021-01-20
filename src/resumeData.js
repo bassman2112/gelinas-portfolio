@@ -23,7 +23,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "My name is Alex Gelinas, and I am a Canadian Developer & Musician! I have a strong passion for building great apps; but also have a deep love for performing, producing, and teaching music. I also love to keep active with hikes, and can often be found getting lost in the wilderness. I have also been a gamer for my whole life, and on top of keeping up with the latest games I am one of the hosts of the Gaming Fyx podcast. ",
+    "My name is Alex Gelinas, and I am a Canadian Developer & Musician! I have a strong passion for building great apps; but also have a deep love for performing, producing, and teaching music. I also love to keep active with hikes, and can often be found getting lost in the wilderness. I have also been a gamer for my whole life, and on top of keeping up with the latest games I am one of the hosts of the Gaming Fyx podcast, as well as the host of the Coding Fyx podcast. ",
   address: "British Columbia, Canada",
   website: "",
   education: [
@@ -53,7 +53,7 @@ let resumeData = {
       MonthOfLeaving: "",
       YearOfLeaving: "Present",
       Achievements:
-        "Working with many languages across several projects involving big data, quick turnaround times, and frequent client interactions/feedback. Languages and technologies used include JavaScript, TypeScript, C#, Go, Kubernetes, Helm, Rancher, Gitlab, and DinD for the purpose of CI/CD. Have successfully been with projects which have gone from initial development to production deployment with many clients."
+        "Working with many languages across several projects involving big data, quick turnaround times, and frequent client interactions/feedback. Languages and technologies used include JavaScript, TypeScript, C#, Go, Kubernetes, Helm, Rancher, Gitlab, and DinD for the purpose of CI/CD. Have successfully been with projects which have gone from initial development and POC to production deployment with many clients, and am the Product Owner for a handful of internal services used by many teams."
     },
     {
       CompanyName: "AudioWorks",
@@ -63,7 +63,7 @@ let resumeData = {
       MonthOfLeaving: "May",
       YearOfLeaving: "2019",
       Achievements:
-        "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, React, Redux, Django, Python, Node and C++. I acted as the Project Manager for the entire Web side of these projects. These projects use Docker and Kubernetes for most of the web infrastructure, and use Microsoft Azure as a host and provider of CI/CD pipelines."
+        "Full Stack Web & Software Development across a wide swath of languages and frameworks including JavaScript, TypeScript, Node, React, Redux, Django, Python, and C++. I acted as the Project Manager for the entire Web side of these projects. These projects used Docker and Kubernetes for most of the web infrastructure, and used Microsoft Azure as a host and provider of CI/CD pipelines."
     },
     {
       CompanyName: "Kitsune Music Academy",
@@ -83,7 +83,7 @@ let resumeData = {
       MonthOfLeaving: "November",
       YearOfLeaving: "2017",
       Achievements:
-        "Developed a large part of VenturX's initial app, and infrastructure. This includes their frontend using Angular, backend using Node, DevOps pipeline, automated build process, as well as many custom pieces of software across their environment. "
+        "Developed a large part of VenturX's core app and infrastructure. This includes their frontend using Angular, backend using Node, DevOps pipeline, automated build process, as well as many custom pieces of software across their whole environment. "
     },
     {
       CompanyName: "Visual-Eyes Software",
@@ -125,7 +125,7 @@ let resumeData = {
       skillname: "Python / Django"
     },
     {
-      skillname: "Java / C# / C++"
+      skillname: "Java / C# / C++ / Go"
     },
     {
       skillname: "MongoDB / PostgreSQL / GraphQL"
@@ -169,7 +169,7 @@ let resumeData = {
       linkURL: "http://kitsunemusicacademy.com"
     },
     {
-      name: "Gaming Fyx",
+      name: "Fyx",
       shortDescription: "It's a Podcast!",
       description:
         "Gaming Fyx is a weekly podcast by six friends from around the world. We talk about video games, as well as a lot of our personal interests - ranging from anime and comic books, to hiking and crossfit. I handle all production aspects of the show - streaming, recording, editing, website, RSS, et cetera. The podcast can be found on all podcast providers!",

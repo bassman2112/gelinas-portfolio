@@ -32,7 +32,7 @@ body {
   --awsazurewidth: 88%;
   --angularreactreduxvuewidth: 100%;
   --wordpressphplaravelwidth: 80%;
-  --javaccwidth: 75%;
+  --javaccgowidth: 85%;
   --mongodbpostgresqlgraphqlwidth: 86%;
   --dockerkubernetesansiblefabricwidth: 99%;
   --pythondjangowidth: 85%;
@@ -428,10 +428,10 @@ ul#nav li.current a {
   -moz-animation: wordpressphplaravel 2s ease;
   -webkit-animation: wordpressphplaravel 2s ease;
 }
-.javacc {
-  width: var(--javaccwidth);
-  -moz-animation: javacc 2s ease;
-  -webkit-animation: javacc 2s ease;
+.javaccgo {
+  width: var(--javaccgowidth);
+  -moz-animation: javaccgo 2s ease;
+  -webkit-animation: javaccgo 2s ease;
 }
 .musicperformanceproduction {
   width: var(--musicperformanceproduction);
@@ -483,12 +483,12 @@ ul#nav li.current a {
     width: var(--wordpressphplaravelwidth);
   }
 }
-@-moz-keyframes javacc {
+@-moz-keyframes javaccgo {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--javaccwidth);
+    width: var(--javaccgowidth);
   }
 }
 @-moz-keyframes musicperformanceproduction {
@@ -556,12 +556,12 @@ ul#nav li.current a {
     width: var(--wordpressphplaravelwidth);
   }
 }
-@-webkit-keyframes javacc {
+@-webkit-keyframes javaccgo {
   0% {
     width: 0px;
   }
   100% {
-    width: var(--javaccwidth);
+    width: var(--javaccgowidth);
   }
 }
 @-webkit-keyframes musicperformanceproduction {
