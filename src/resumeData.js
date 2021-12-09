@@ -53,7 +53,7 @@ let resumeData = {
       MonthOfLeaving: "",
       YearOfLeaving: "Present",
       Achievements:
-        "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broad reach."
+        "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broader reach to both audio enthusiasts and normal everyday music listeners. Will fill in more details once they become available to talk about!"
     },
     {
       CompanyName: "Ingrooves / Universal Music Group",
