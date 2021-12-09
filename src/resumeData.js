@@ -46,12 +46,22 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Roon Labs",
+      specialization: "Senior Software Developer",
+      MonthOfJoining: "July",
+      YearOfJoining: "2021",
+      MonthOfLeaving: "",
+      YearOfLeaving: "Present",
+      Achievements:
+        "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broad reach."
+    },
+    {
       CompanyName: "Ingrooves / Universal Music Group",
       specialization: "Senior Software Developer",
       MonthOfJoining: "June",
       YearOfJoining: "2019",
-      MonthOfLeaving: "",
-      YearOfLeaving: "Present",
+      MonthOfLeaving: "July",
+      YearOfLeaving: "2021",
       Achievements:
         "Working with many languages across several projects involving big data, quick turnaround times, and frequent client interactions/feedback. Languages and technologies used include JavaScript, TypeScript, C#, Go, Kubernetes, Helm, Rancher, Gitlab, and DinD for the purpose of CI/CD. Have successfully been with projects which have gone from initial development and POC to production deployment with many clients, and am the Product Owner for a handful of internal services used by many teams."
     },
