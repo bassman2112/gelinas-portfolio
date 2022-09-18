@@ -53,7 +53,7 @@ let resumeData = {
       MonthOfLeaving: "",
       YearOfLeaving: "Present",
       Achievements:
-        "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broader reach to both audio enthusiasts and normal everyday music listeners. Will fill in more details once they become available to talk about!"
+        "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broader reach to both audio enthusiasts and normal everyday music listeners. We use big data to drive a fantastic experience for any and all to enjoy their music. The corpus of the data we work with is the entirety of released music, as well as all musicians who have ever been recorded and/or published. I also created tools to parse all of Wikipedia to further drive this data and give the richest metadata experience in the music industry!"
     },
     {
       CompanyName: "Ingrooves / Universal Music Group",
