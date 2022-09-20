@@ -24,7 +24,7 @@ let resumeData = {
   ],
   aboutme:
     "My name is Alex Gelinas, and I am a Canadian Developer & Musician! I have a strong passion for building great apps; but also have a deep love for performing, producing, and teaching music. I also love to keep active with mountain biking, hikes, and can often be found getting lost in the wilderness. I have also been a gamer for my whole life, and on top of keeping up with the latest games I was one of the hosts of the Gaming Fyx podcast, as well as the host of the Coding Fyx podcast. ",
-  address: "British Columbia, Canada",
+  address: "Alberta, Canada",
   website: "",
   education: [
     {
