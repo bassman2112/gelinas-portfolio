@@ -46,12 +46,22 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "thatgamecompany",
+      specialization: "Senior Software Developer",
+      MonthOfJoining: "January",
+      YearOfJoining: "2023",
+      MonthOfLeaving: "",
+      YearOfLeaving: "Present",
+      Achievements:
+        "Will talk about it when I can!"
+    },
+    {
       CompanyName: "Roon Labs",
       specialization: "Senior Software Developer",
       MonthOfJoining: "July",
       YearOfJoining: "2021",
-      MonthOfLeaving: "",
-      YearOfLeaving: "Present",
+      MonthOfLeaving: "2022",
+      YearOfLeaving: "December",
       Achievements:
         "Working across many projects in many languages (C#, C++, Python, Go) and helping grow Roon in many capacities - from its software capabilities to its broader reach to both audio enthusiasts and normal everyday music listeners. We use big data to drive a fantastic experience for any and all to enjoy their music. The corpus of the data we work with is the entirety of released music, as well as all musicians who have ever been recorded and/or published. I also created tools to parse all of Wikipedia to further drive this data and give the richest metadata experience in the music industry!"
     },
