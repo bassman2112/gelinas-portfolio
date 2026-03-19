@@ -50,8 +50,8 @@ let resumeData = {
       specialization: "Senior Software Developer",
       MonthOfJoining: "January",
       YearOfJoining: "2023",
-      MonthOfLeaving: "",
-      YearOfLeaving: "Present",
+      MonthOfLeaving: "2026",
+      YearOfLeaving: "February",
       Achievements:
         "Working on making the Backend systems for Sky: Children Of The Light!! Keeping our players connected and making memories together 🩵 We primarily use Golang for these services, alongside a bit of Erlang. The data layer a blend of MongoDB, Postgres, Redis, and Nebula Graph, alongside the use of tools such as Kafka."
     },
