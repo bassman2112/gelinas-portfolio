@@ -29,15 +29,15 @@ body {
 /* Variables */
 :root {
   /* These are used for the skill bars */
+  --gowidth: 100%;
+  --cnetwidth: 92%;
+  --pythonwidth: 90%;
+  --typescriptnodewidth: 92%;
+  --mongodbpostgresqlrediswidth: 95%;
+  --kafkaeventstreamingwidth: 88%;
+  --kubernetesterraformhelmwidth: 95%;
   --awsazurewidth: 88%;
-  --angularreactreduxvuewidth: 100%;
-  --wordpressphplaravelwidth: 80%;
-  --javaccgowidth: 85%;
-  --mongodbpostgresqlgraphqlwidth: 86%;
-  --dockerkubernetesansiblefabricwidth: 99%;
-  --pythondjangowidth: 85%;
-  --jstsnodewidth: 100%;
-  --musicperformanceproduction: 100%;
+  --musicproductionperformancewidth: 100%;
   /* This is your site theme colour */
   --site-theme: #11abb0;
   --contrast-colour: #FFF;
@@ -413,196 +413,124 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
+.go {
+  width: var(--gowidth);
+  -moz-animation: go 2s ease;
+  -webkit-animation: go 2s ease;
+}
+.cnet {
+  width: var(--cnetwidth);
+  -moz-animation: cnet 2s ease;
+  -webkit-animation: cnet 2s ease;
+}
+.python {
+  width: var(--pythonwidth);
+  -moz-animation: python 2s ease;
+  -webkit-animation: python 2s ease;
+}
+.typescriptnode {
+  width: var(--typescriptnodewidth);
+  -moz-animation: typescriptnode 2s ease;
+  -webkit-animation: typescriptnode 2s ease;
+}
+.mongodbpostgresqlredis {
+  width: var(--mongodbpostgresqlrediswidth);
+  -moz-animation: mongodbpostgresqlredis 2s ease;
+  -webkit-animation: mongodbpostgresqlredis 2s ease;
+}
+.kafkaeventstreaming {
+  width: var(--kafkaeventstreamingwidth);
+  -moz-animation: kafkaeventstreaming 2s ease;
+  -webkit-animation: kafkaeventstreaming 2s ease;
+}
+.kubernetesterraformhelm {
+  width: var(--kubernetesterraformhelmwidth);
+  -moz-animation: kubernetesterraformhelm 2s ease;
+  -webkit-animation: kubernetesterraformhelm 2s ease;
+}
 .awsazure {
   width: var(--awsazurewidth);
   -moz-animation: awsazure 2s ease;
   -webkit-animation: awsazure 2s ease;
 }
-.angularreactreduxvue {
-  width: var(--angularreactreduxvuewidth);
-  -moz-animation: angularreactreduxvue 2s ease;
-  -webkit-animation: angularreactreduxvue 2s ease;
-}
-.wordpressphplaravel {
-  width: var(--wordpressphplaravelwidth);
-  -moz-animation: wordpressphplaravel 2s ease;
-  -webkit-animation: wordpressphplaravel 2s ease;
-}
-.javaccgo {
-  width: var(--javaccgowidth);
-  -moz-animation: javaccgo 2s ease;
-  -webkit-animation: javaccgo 2s ease;
-}
-.musicperformanceproduction {
-  width: var(--musicperformanceproduction);
-  -moz-animation: musicperformanceproduction 2s ease;
-  -webkit-animation: musicperformanceproduction 2s ease;
-}
-.mongodbpostgresqlgraphql {
-  width: var(--mongodbpostgresqlgraphqlwidth);
-  -moz-animation: mongodbpostgresqlgraphql 2s ease;
-  -webkit-animation: mongodbpostgresqlgraphql 2s ease;
-}
-.dockerkubernetesansiblefabric {
-  width: var(--dockerkubernetesansiblefabricwidth);
-  -moz-animation: dockerkubernetesansiblefabric 2s ease;
-  -webkit-animation: dockerkubernetesansiblefabric 2s ease;
-}
-.pythondjango {
-  width: var(--pythondjangowidth);
-  -moz-animation: pythondjango 2s ease;
-  -webkit-animation: pythondjango 2s ease;
-}
-.jstsnode {
-  width: var(--jstsnodewidth);
-  -moz-animation: jstsnode 2s ease;
-  -webkit-animation: jstsnode 2s ease;
+.musicproductionperformance {
+  width: var(--musicproductionperformancewidth);
+  -moz-animation: musicproductionperformance 2s ease;
+  -webkit-animation: musicproductionperformance 2s ease;
 }
 
+@-moz-keyframes go {
+  0% { width: 0px; }
+  100% { width: var(--gowidth); }
+}
+@-moz-keyframes cnet {
+  0% { width: 0px; }
+  100% { width: var(--cnetwidth); }
+}
+@-moz-keyframes python {
+  0% { width: 0px; }
+  100% { width: var(--pythonwidth); }
+}
+@-moz-keyframes typescriptnode {
+  0% { width: 0px; }
+  100% { width: var(--typescriptnodewidth); }
+}
+@-moz-keyframes mongodbpostgresqlredis {
+  0% { width: 0px; }
+  100% { width: var(--mongodbpostgresqlrediswidth); }
+}
+@-moz-keyframes kafkaeventstreaming {
+  0% { width: 0px; }
+  100% { width: var(--kafkaeventstreamingwidth); }
+}
+@-moz-keyframes kubernetesterraformhelm {
+  0% { width: 0px; }
+  100% { width: var(--kubernetesterraformhelmwidth); }
+}
 @-moz-keyframes awsazure {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--awsazurewidth);
-  }
+  0% { width: 0px; }
+  100% { width: var(--awsazurewidth); }
 }
-@-moz-keyframes angularreactreduxvue {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--angularreactreduxvuewidth);
-  }
-}
-@-moz-keyframes wordpressphplaravel {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--wordpressphplaravelwidth);
-  }
-}
-@-moz-keyframes javaccgo {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--javaccgowidth);
-  }
-}
-@-moz-keyframes musicperformanceproduction {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--musicperformanceproduction);
-  }
-}
-@-moz-keyframes mongodbpostgresqlgraphql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--mongodbpostgresqlgraphqlwidth);
-  }
-}
-@-moz-keyframes dockerkubernetesansiblefabric {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--dockerkubernetesansiblefabricwidth);
-  }
-}
-@-moz-keyframes pythondjango {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--pythondjangowidth);
-  }
-}
-@-moz-keyframes jstsnode {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--jstsnodewidth);
-  }
+@-moz-keyframes musicproductionperformance {
+  0% { width: 0px; }
+  100% { width: var(--musicproductionperformancewidth); }
 }
 
+@-webkit-keyframes go {
+  0% { width: 0px; }
+  100% { width: var(--gowidth); }
+}
+@-webkit-keyframes cnet {
+  0% { width: 0px; }
+  100% { width: var(--cnetwidth); }
+}
+@-webkit-keyframes python {
+  0% { width: 0px; }
+  100% { width: var(--pythonwidth); }
+}
+@-webkit-keyframes typescriptnode {
+  0% { width: 0px; }
+  100% { width: var(--typescriptnodewidth); }
+}
+@-webkit-keyframes mongodbpostgresqlredis {
+  0% { width: 0px; }
+  100% { width: var(--mongodbpostgresqlrediswidth); }
+}
+@-webkit-keyframes kafkaeventstreaming {
+  0% { width: 0px; }
+  100% { width: var(--kafkaeventstreamingwidth); }
+}
+@-webkit-keyframes kubernetesterraformhelm {
+  0% { width: 0px; }
+  100% { width: var(--kubernetesterraformhelmwidth); }
+}
 @-webkit-keyframes awsazure {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--awsazurewidth);
-  }
+  0% { width: 0px; }
+  100% { width: var(--awsazurewidth); }
 }
-@-webkit-keyframes angularreactreduxvue {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--angularreactreduxvuewidth);
-  }
-}
-@-webkit-keyframes wordpressphplaravel {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--wordpressphplaravelwidth);
-  }
-}
-@-webkit-keyframes javaccgo {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--javaccgowidth);
-  }
-}
-@-webkit-keyframes musicperformanceproduction {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--musicperformanceproduction);
-  }
-}
-@-webkit-keyframes mongodbpostgresqlgraphql {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--mongodbpostgresqlgraphqlwidth);
-  }
-}
-@-webkit-keyframes dockerkubernetesansiblefabric {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--dockerkubernetesansiblefabricwidth);
-  }
-}
-@-webkit-keyframes pythondjango {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--pythondjangowidth);
-  }
-}
-@-webkit-keyframes jstsnode {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: var(--jstsnodewidth);
-  }
+@-webkit-keyframes musicproductionperformance {
+  0% { width: 0px; }
+  100% { width: var(--musicproductionperformancewidth); }
 }
 
 /* ------------------------------------------------------------------ */

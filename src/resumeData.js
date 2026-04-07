@@ -140,7 +140,7 @@ let resumeData = {
         "As part of a very small backend team at thatgamecompany, I built and maintained the services that kept Sky's millions of players connected. This included shipping a robust Relationship service, fixing critical security vulnerabilities, building compensation scripts for production incidents, and creating time-travel functionality for QA testing. The stack was Go with MongoDB, PostgreSQL, Redis, Nebula Graph, and Kafka, deployed globally via Kubernetes, Terraform, and Helm on AWS.",
       technologies: "Go, MongoDB, PostgreSQL, Redis, Kafka, Kubernetes, Terraform, Helm, AWS",
       thumbnailurl: "images/portfolio/tgc.png",
-      imgurl: "images/portfolio/modals/tgc.png",
+      imgurl: "images/portfolio/tgc.png",
       linkText: "Learn more about Sky: Children of the Light",
       linkURL: "https://www.thatskygame.com/"
     },
