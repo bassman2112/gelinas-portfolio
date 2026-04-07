@@ -2,13 +2,20 @@ import React, { Component } from "react";
 import Particles from "react-particles-js";
 
 class ParticleContainer extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      particleCount: window.innerWidth < 768 ? 20 : 60
+    };
+  }
+
   render() {
     return (
       <Particles
         params={{
           particles: {
             number: {
-              value: 60,
+              value: this.state.particleCount,
               density: {
                 enable: true,
                 value_area: 1500

@@ -25,6 +25,7 @@ export default class Porfolio extends Component {
                             rel="noopener noreferrer"
                             src={`${item.thumbnailurl}`}
                             className="item-img"
+                            loading="lazy"
                           />
                           <div className="overlay">
                             <div className="portfolio-item-meta">
@@ -40,7 +41,7 @@ export default class Porfolio extends Component {
                           href={item.linkURL}
                           target="_blank"
                         >
-                          <img alt={item.name} src={`${item.imgurl}`} />
+                          <img alt={item.name} src={`${item.imgurl}`} loading="lazy" />
                         </a>
                         <h2 style={{ margin: "8px 0px" }}>{item.name}</h2>
                         <p>{item.description}</p>

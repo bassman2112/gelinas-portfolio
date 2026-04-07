@@ -9,7 +9,7 @@ export default class About extends Component {
             <img
               className="profile-pic"
               src="images/profilepic.jpg"
-              alt=""
+              alt="Alex Gelinas"
               align="center"
             />
             <ul className="social" align="center">
