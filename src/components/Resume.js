@@ -150,7 +150,7 @@ export default class Resume extends Component {
               data-action="https://www.ingrooves.com/"
             />
             <img
-              src="images/companies/tgc.jpg"
+              src="images/companies/tgc.png"
               alt="thatgamecompany"
               data-action="https://thatgamecompany.com/"
             />
