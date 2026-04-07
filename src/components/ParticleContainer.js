@@ -1,27 +1,46 @@
 import React, { Component } from "react";
-import Particles from "react-particles-js";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+
+let engineReady = false;
+const enginePromise = initParticlesEngine(async (engine) => {
+  await loadSlim(engine);
+}).then(() => {
+  engineReady = true;
+});
 
 class ParticleContainer extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      particleCount: window.innerWidth < 768 ? 20 : 60
+      particleCount: window.innerWidth < 768 ? 20 : 60,
+      ready: engineReady
     };
   }
 
+  componentDidMount() {
+    if (!engineReady) {
+      enginePromise.then(() => {
+        this.setState({ ready: true });
+      });
+    }
+  }
+
   render() {
+    if (!this.state.ready) return null;
+
     return (
       <Particles
-        params={{
+        options={{
           particles: {
             number: {
               value: this.state.particleCount,
               density: {
                 enable: true,
-                value_area: 1500
+                valueArea: 1500
               }
             },
-            line_linked: {
+            links: {
               enable: true,
               opacity: 0.25
             },
@@ -33,27 +52,27 @@ class ParticleContainer extends Component {
               value: 3
             },
             opacity: {
-              anim: {
+              animation: {
                 enable: true,
                 speed: 1,
-                opacity_min: 0.5
+                minimumValue: 0.5
               }
             }
           },
           interactivity: {
             events: {
-              onclick: {
+              onClick: {
                 enable: true,
                 mode: "push"
               }
             },
             modes: {
               push: {
-                particles_nb: 1
+                quantity: 1
               }
             }
           },
-          retina_detect: true
+          detectRetina: true
         }}
       />
     );

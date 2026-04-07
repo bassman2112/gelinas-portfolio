@@ -1,5 +1,29 @@
 import React, { Component } from "react";
-import Coverflow from "react-coverflow";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+
+const companies = [
+  { src: "images/companies/ocr.png", alt: "OC Remix", url: "https://ocremix.org/" },
+  { src: "images/companies/rt.jpg", alt: "Rooster Teeth", url: "https://roosterteeth.com/" },
+  { src: "images/companies/ve.jpg", alt: "Visual-Eyes", url: "https://www.visual-eyes.ca" },
+  { src: "images/companies/mp.png", alt: "MusicPlay", url: "https://www.musicplaycanada.com/" },
+  { src: "images/companies/twitch.png", alt: "Twitch", url: "https://twitch.tv" },
+  { src: "images/companies/kma.png", alt: "KMA", url: "https://www.kitsunemusicacademy.com" },
+  { src: "images/companies/aw.png", alt: "AudioWorks", url: "https://www.linkedin.com/company/audioworks-technologies/about/" },
+  { src: "images/companies/ig.jpg", alt: "Ingrooves Music Group", url: "https://www.ingrooves.com/" },
+  { src: "images/companies/tgc.png", alt: "thatgamecompany", url: "https://thatgamecompany.com/" },
+  { src: "images/companies/ms.jpg", alt: "Microsoft", url: "https://www.microsoft.ca" },
+  { src: "images/companies/umg.jpg", alt: "Universal Media Group", url: "https://www.universalmusic.com/" },
+  { src: "images/companies/berk.gif", alt: "Berklee", url: "https://www.berklee.edu/" },
+  { src: "images/companies/mw.png", alt: "MetalWorks", url: "https://www.metalworksinstitute.com/" },
+  { src: "images/companies/vx.png", alt: "VenturX", url: "https://www.venturx.ca/" },
+  { src: "images/companies/ds.jpg", alt: "DealerSocket", url: "https://dealersocket.com/" },
+  { src: "images/companies/pb.jpg", alt: "Plugin Boutique", url: "https://www.pluginboutique.com/" },
+  { src: "images/companies/fs.jpg", alt: "FlexiShip", url: "https://www.flexiship.ca/" },
+];
+
 export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -93,108 +117,30 @@ export default class Resume extends Component {
             </p>
           </div>
 
-          <Coverflow
+          <Swiper
             className="coverflow-resume"
-            displayQuantityOfSide={3}
-            infiniteScroll
-            enableHeading={false}
-            media={{
-              "@media (max-width: 900px)": {
-                width: "100%",
-                height: "140px"
-              },
-              "@media (min-width: 900px)": {
-                width: "100%",
-                height: "200px"
-              }
+            modules={[Autoplay, Navigation]}
+            loop={true}
+            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            navigation={true}
+            spaceBetween={10}
+            breakpoints={{
+              0: { slidesPerView: 2 },
+              600: { slidesPerView: 3 },
+              900: { slidesPerView: 5 },
             }}
           >
-            <img
-              src="images/companies/ocr.png"
-              alt="OC Remix"
-              data-action="https://ocremix.org/"
-            />
-            <img
-              src="images/companies/rt.jpg"
-              alt="Rooster Teeth"
-              data-action="https://roosterteeth.com/"
-            />
-            <img
-              src="images/companies/ve.jpg"
-              alt="Visual-Eyes"
-              data-action="https://www.visual-eyes.ca"
-            />
-            <img
-              src="images/companies/mp.png"
-              alt="MusicPlay"
-              data-action="https://www.musicplaycanada.com/"
-            />
-            <img
-              src="images/companies/twitch.png"
-              alt="Twitch"
-              data-action="https://twitch.tv"
-            />
-            <img
-              src="images/companies/kma.png"
-              alt="KMA "
-              data-action="https://www.kitsunemusicacademy.com"
-            />
-            <img
-              src="images/companies/aw.png"
-              alt="AudioWorks"
-              data-action="https://www.linkedin.com/company/audioworks-technologies/about/"
-            />
-            <img
-              src="images/companies/ig.jpg"
-              alt="Ingrooves Music Group"
-              data-action="https://www.ingrooves.com/"
-            />
-            <img
-              src="images/companies/tgc.png"
-              alt="thatgamecompany"
-              data-action="https://thatgamecompany.com/"
-            />
-            <img
-              src="images/companies/ms.jpg"
-              alt="Microsoft"
-              data-action="https://www.microsoft.ca"
-            />
-            <img
-              src="images/companies/umg.jpg"
-              alt="Universal Media Group"
-              data-action="https://www.universalmusic.com/"
-            />
-            <img
-              src="images/companies/berk.gif"
-              alt="Berklee"
-              data-action="https://www.berklee.edu/"
-            />
-            <img
-              src="images/companies/mw.png"
-              alt="MetalWorks"
-              data-action="https://www.metalworksinstitute.com/"
-            />
-            <img
-              src="images/companies/vx.png"
-              alt="VenturX"
-              data-action="https://www.venturx.ca/"
-            />
-            <img
-              src="images/companies/ds.jpg"
-              alt="DealerSocket"
-              data-action="https://dealersocket.com/"
-            />
-            <img
-              src="images/companies/pb.jpg"
-              alt="Plugin Boutique"
-              data-action="https://www.pluginboutique.com/"
-            />
-            <img
-              src="images/companies/fs.jpg"
-              alt="FlexiShip"
-              data-action="https://www.flexiship.ca/"
-            />
-          </Coverflow>
+            {companies.map((company) => (
+              <SwiperSlide key={company.alt}>
+                <img
+                  src={company.src}
+                  alt={company.alt}
+                  style={{ cursor: "pointer", width: "100%", height: "auto" }}
+                  onClick={() => window.open(company.url, "_blank", "noopener,noreferrer")}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
 
         <div className="row skill">
