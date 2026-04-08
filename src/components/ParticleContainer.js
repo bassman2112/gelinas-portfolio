@@ -31,6 +31,7 @@ class ParticleContainer extends Component {
 
     return (
       <Particles
+        id="particles-js"
         options={{
           particles: {
             number: {

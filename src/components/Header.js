@@ -46,9 +46,7 @@ export default class Header extends Component {
           </nav>
 
           <div className="row banner">
-            <div id="particles-js">
-              <ParticleContainer />
-            </div>
+            <ParticleContainer />
 
             <div className="banner-text">
               <h1 className="responsive-headline">
