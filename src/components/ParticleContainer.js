@@ -38,7 +38,7 @@ class ParticleContainer extends Component {
               value: this.state.particleCount,
               density: {
                 enable: true,
-                valueArea: 1500
+                width: 1500
               }
             },
             links: {
@@ -53,10 +53,10 @@ class ParticleContainer extends Component {
               value: 3
             },
             opacity: {
+              value: { min: 0.5, max: 1 },
               animation: {
                 enable: true,
-                speed: 1,
-                minimumValue: 0.5
+                speed: 1
               }
             }
           },
