@@ -33,6 +33,7 @@ class ParticleContainer extends Component {
       <Particles
         id="particles-js"
         options={{
+          fullScreen: { enable: false },
           particles: {
             number: {
               value: this.state.particleCount,
@@ -46,6 +47,7 @@ class ParticleContainer extends Component {
               opacity: 0.25
             },
             move: {
+              enable: true,
               direction: "right",
               speed: 0.15
             },
